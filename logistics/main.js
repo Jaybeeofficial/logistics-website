@@ -68,3 +68,17 @@ const menuToggle = document.getElementById("menu-toggle");
         started = true;
       }
     });
+
+
+    // Basic reveal
+  ScrollReveal().reveal('.reveal', {
+    duration: 1200,
+    distance: '50px',
+    easing: 'ease-in-out',
+    origin: 'bottom',
+    reset: false // if true, animates every time you scroll back
+  });
+
+  // Example: you can target specific sections differently
+  ScrollReveal().reveal('.timeline-item', { origin: 'left', distance: '80px', duration: 1400 });
+  ScrollReveal().reveal('.service-card', { origin: 'bottom', distance: '60px', duration: 1000, interval: 200 });

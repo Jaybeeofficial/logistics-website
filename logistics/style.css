@@ -110,6 +110,7 @@
       cursor: pointer;
       background: none;
       border: none;
+      color: #000 !important;
       display: none;
       margin-left: 1rem;
     }
